@@ -91,12 +91,12 @@ type TableArgs = NumColumns | Header | RowBackground | OuterBorders | InnerBorde
     exposed Args type
 ]]
 export type Args = {
-    -- have no args
-    MenuBar: {};
-    Group: {};
-    Separator: {};
-    Root: {};
-	TabBar: {};
+    -- have no args, so we'll just hide them lol
+    -- MenuBar: {};
+    -- Group: {};
+    -- Separator: {};
+    -- Root: {};
+	-- TabBar: {};
 
 	Text: {[TextArgs]: number};
 	SeparatorText: {[SeparatorTextArgs]: number};
